@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+   height: 790px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 150px;
+   background-color: black;
+   padding-top: 70px;
+   padding-right: 150px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+     right: 0;
+     left: 0;
+     height: 60px;
+     background-color: gray;
+     background-size: 60px;
+     background-repeat: no-repeat;
+     z-index: 100;
+     align-items: center;
+    top:0;
+    position: fixed;
+    outline: 0;
+}
+.icons ul li{
+    display: inline;
+    align-items: center;
+    padding-left: 20px;
+}
+#hicon{
+    display: inline;
+}
+.header-left{
+   display: flex;
+   align-items: center;
+   margin-right: 100px;
+}
+#logo{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+.header-middle{
+    display: flex;
+    padding-right: 20px;
+    padding-top: 0;
+}
+.search-box{
+    
+    padding: 7px;
+    border-radius: 50px;
+}
+.icons{
+    display: inline;
+    padding: 5px;
+    align-items: center;
+}
+.icons ul li h3{
+    display: inline;
+    padding-left: 5px;
+}
+#my-profile{
+    width: 20px;
+    height: auto;
+    opacity: 0.6;
+    font-family: bold;
+    border-radius: 50%;
+}
+.header-right{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 0;
+    padding-left: 50px;
+}
+#link{
+   color: burlywood;
+   font-size: 15px; 
+}
+
+.main{
+    display: flex;
+    padding: 30px;
+    padding-top: 5px;
+}
+ .main-left-1{
+    width: 95.7%;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: gray;
+    
+ }
+ .cover-picture{
+     border-radius: 5px 0 0;
+     max-width: 100%; 
+     height: auto;
+ }
+ 
+#ads{
+    color: white;
+    font-weight: 100;
+}
+.items{
+    display: flex;
+}
+.items h3{
+    color: white;
+    font-weight: 100;
+}
+.main-left-2{
+    max-width: 95.7%;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: gray;
+}
+.khills-team-profile{
+    width: 20;
+    height:100;
+    padding: 10px;
+    
+}
+#kills{
+    padding-right: 90px;
+    font-size: 15px;
+     color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.main-left-3{
+    max-width: 95.7%;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: gray;
+}
+#recent-list,.group-list{
+    list-style: circle;
+}
+#recent-list ul li::before{
+    content: ".";
+} 
+.group-list{
+    padding: 20px;
+}
+.main-middle{
+   margin-left: 20px;
+}
+.main-middle-1{
+    max-width: 800%;
+    border-radius: 5px;
+    margin-top: 5px; 
+    background-color: grey; 
+}
+.startings{
+    display: flex;
+    padding: 10px;
+
+}
+#start-search-box{
+    border-radius: 20px;
+    height: 40px;
+    width: 40rem;
+    margin-left: 5px;
+    background-color:rgb(146, 136, 136);
+}
+.options{
+    display: flex;
+    padding: 10px;
+    margin-right: 10px;
+   
+}
+.options h5{
+    display: inline;
+  
+}
+.sort{
+    display: flex;
+    margin-right: 40px;
+}
+#sort{
+    width: 200px;
+    margin-left: 5px;
+}
+#sort-icon{
+    margin: left 20px;
+    color: black;
+   
+}
+.main-middle-2{
+    max-width: 800%;
+    border-radius: 5px;
+    margin-top: 5px; 
+    background-color: gray;
+}
+#like{
+    width: 25px;
+    margin: 10px;
+    margin-top: 5px;
+}
+.likes{
+    display: flex;
+}
+h3 p{
+  margin-top: 40px;
+  align-items: center;
+}
+#follower-profile{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+.m{
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: -3rem;
+    margin-left: 3.5rem;
+ }
+ .followers{
+    display: flex;
+}
+.follower-title{
+    margin-top: 10px;
+}
+.bosw{
+    width: 10px;
+}
+.earth{
+    width: 15px;
+    background: gray;
+    border-radius: 50%;
+}
+#ads{
+    height: 15rem;
+    width: 22rem;
+}
+#ads-1{
+    height: 15rem;
+    width: 22rem;
+}
+.posts{
+    display: flex;
+    margin: 0px;
+}
+.main-right{
+   margin-left: 20px;
+   max-width: 35rem;
+}
+.main-right-1{
+    background-color: gray;
+    border-radius: 5px;
+   
+}
+#head1{margin: 5px;}
+
+#aem{
+    width: 40px;
+    border-radius: 50%;
+}
+#follow{
+    width: 5rem;
+    border-radius: 20px;
+    height: 2rem;
+    background-color: transparent;
+}
+.AEM-LOGO{
+    display: flex;
+    padding: 5px;
+}
+.AEM-com,#aem{
+    padding-left: 6px;
+}
+#footer1{
+    margin: 3px;
+}
+#footer2{
+    color: wheat;
+}
+.main-right-2{
+    margin-top: 7px;
+}
+.main-left-3{
+    background: gray;
+}
+.lis{
+    padding: 5px;
+    align-items: center;
+    padding-left: 50px;
+}
+.lis ul li{
+    display: inline;
+    color: antiquewhite;
+    list-style: none;
+}
+/* Smaller screens like phones */
+@media only screen and (max-width: 720px) {
+    /* Adjust styles for smaller screens */
+    .header{
+        position: fixed;
+        width: 720px;
+        height: 120px;
+    }
+    main{
+        width: 300px;
+       left: 20px;
+       margin-top: 43px;
+        display: flex;
+        color: black;
+    }
+    .main-left{
+        width: 95.7%;
+    }
+    .icons{
+        padding-left: -30px;
+    }
+    #recent-list,.group-list{
+        list-style: circle;
+        padding-left: 20px;
+    }
+    .viewer p{
+        padding-left: 3px;
+    }
+    body{
+        background: #526665;
+    }
+}
+  /* Medium-sized devices like tablets */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for tablets */
+    .header{
+        position: fixed;
+        width: 1020px;
+        height: 80px;
+    }
+    main{
+        width: 300px;
+        left: 10px;
+       margin-top: 5px;
+        display: flex;
+        color: black;
+        
+    }
+    .main-left{
+        width: 90%;
+    }
+    .icons{
+        padding-left: -30px;
+    }
+    .main-middle{
+        max-width: 700%;
+    }
+  body{
+    background: green;
+    color: whitesmoke;
+  }
+  #recent-list,.group-list{
+    list-style: circle;
+    padding-left: 20px;
+}
+.viewer p{
+    padding-left: 5px;
+}
+  }
+  /* Larger screens like desktops */
+  @media only screen and (min-width: 1025px) {
+    /* Adjust styles for larger screens */
+
+  }
